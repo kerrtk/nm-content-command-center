@@ -101,7 +101,7 @@ export default function RecruitingPage() {
             <Textarea
               value={situation}
               onChange={(e) => setSituation(e.target.value)}
-              placeholder='e.g. "She just posted about being exhausted from her 9-to-5 and wishing she could be home with her kids" or "He mentioned he\'s been looking for a side hustle for 6 months"'
+              placeholder="e.g. She posted about being exhausted from her 9-to-5 and wanting more time with her kids"
               className="text-sm resize-none"
               rows={3}
             />
